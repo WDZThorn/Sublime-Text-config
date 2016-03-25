@@ -11,24 +11,23 @@
 		"Desktop.ini",
 		"*.pyc",
 		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
+		"Thumbs.db"
 	],
 	"folder_exclude_patterns":
 	[
-		".git",
-		"node_modules"
+		".git"
 	],
-	"font_face": "monaco",
+	"font_face": "source code pro",
 	"font_options":
 	[
-		"directwrite",
+		"subpixel_antialias",
 		"gray_antialias"
 	],
-	"font_size": 13.5,
+	"font_size": 15.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"http_proxy": "http://127.0.0.1:8087",
+	"https_proxy": "http://127.0.0.1:8087",
 	"ignored_packages":
 	[
 	],
@@ -37,10 +36,15 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"material_theme_accent_orange": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"material_theme_accent_indigo": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_panel_separator": true,
 	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
