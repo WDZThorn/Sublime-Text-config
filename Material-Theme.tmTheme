@@ -835,7 +835,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>CSS: #</string>
       <key>scope</key>
-      <string>constant.other.color.rgb-value punctuation.definition.constant</string>
+      <string>constant.other.color.rgb-value punctuation.definition.constant, source.sass entity.other.attribute-name.id.sass, source.css meta.selector.css entity.other.attribute-name.id.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -1058,6 +1058,107 @@ meta.property-value support.constant.named-color.css</string>
         <string>#FFEB95</string>
       </dict>
     </dict>
+            <dict>
+            <key>name</key>
+            <string>Bracket Default</string>
+            <key>scope</key>
+            <string>brackethighlighter.default</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+                <key>background</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Unmatched</string>
+            <key>scope</key>
+            <string>brackethighlighter.unmatched</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+                <key>background</key>
+                <string>#FF0000</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Curly</string>
+            <key>scope</key>
+            <string>brackethighlighter.curly</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF00FF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Round</string>
+            <key>scope</key>
+            <string>brackethighlighter.round</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E7FF04</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Square</string>
+            <key>scope</key>
+            <string>brackethighlighter.square</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FE4800</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Angle</string>
+            <key>scope</key>
+            <string>brackethighlighter.angle</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02F78E</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Tag</string>
+            <key>scope</key>
+            <string>brackethighlighter.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+                <key>background</key>
+                <string>#0080FF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Quote</string>
+            <key>scope</key>
+            <string>brackethighlighter.quote</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#56FF00</string>
+            </dict>
+        </dict>
   </array>
   <key>uuid</key>
   <string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
