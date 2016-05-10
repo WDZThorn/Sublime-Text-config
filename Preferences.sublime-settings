@@ -2,7 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"default_encoding": "UTF-8",
-	"detect_indentation": false,
+	"detect_indentation": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": false,
 	"file_exclude_patterns":
@@ -20,15 +20,13 @@
 	"font_face": "source code pro",
 	"font_options":
 	[
-		"subpixel_antialias",
-		"gray_antialias"
+		"subpixel_antialias"
 	],
-	"font_size": 15.5,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-        "Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -58,36 +56,9 @@
 	"update_check": false,
 	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true,
-
-    // If true, debug information will be printed to the console.
-    "vintageous_verbose": false,
-    // If true, some key bindings prefaced by the CTRL modifier will override default Sublime Text
-    // key bindings.
-    "vintageous_use_ctrl_keys": true,
-    // If true, search occurrences will be highlighted in '/', '?', etc.
-    // (Disabled.)
-    "vintageous_hlsearch": true,
-    // If true, search patterns will be applied incrementally as they are typed in.
-    // (Disabled.)
-    "vintageous_incsearch": true,
-    // If true, ':' and ex commands will be available.
-    "vintageous_enable_cmdline_mode": true,
-    // If true, the current mode will be reset to normal mode when a tab gets activated.
-    "vintageous_reset_mode_when_switching_tabs": true,
-    // If true, some commands will take the current indentation level into account.
-    // (Disabled.)
-    "vintageous_autoindent": true,
-    // If true, copy actions will always propagate to the system clipboard.
-    "vintageous_use_sys_clipboard": false,
-    // If true, / and ? will use regular expressions.
-    // If false, smart case will be used instead: the pattern will be interpreted literally and, if
-    // it's either all lowercase or all uppercase, case will be ignored too.
-    "vintageous_magic": true,
-    // If true, /, ?, * and # will always ignore case.
-    "vintageous_ignorecase": true,
-    // Logging level. Used for diagnostics and troubleshooting. Common valid
-    // values are 'debug', 'info', 'error', 'critical'. Most users should
-    // not need to modify the default value.
-    "vintageous_log_level": "error"
+	"word_wrap": false,
+	"caret_style": "solid",
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	"caret_extra_width": 1,
 }
